@@ -1,0 +1,23 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of professional work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megduke/MyPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megduke/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/megduke/MyPortfolio#readme",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  }
+}

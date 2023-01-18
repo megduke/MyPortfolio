@@ -1,0 +1,41 @@
+body {
+    background-image: url("corkboard.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+.papers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+#about-me-pin {
+ margin-top: -20%;
+ padding-left: 2rem;
+}
+
+#linkedin-pin {
+    margin-left: 40%;
+    margin-top: -60%;
+}
+#flower-pin {
+    margin-left: 10%;
+    transform: rotate(180);
+}
+
+#design-pin {
+    padding-left: 20%;
+}
+
+#projects-pin {
+    margin-top: -25%;
+    margin-left: 5%;
+}
