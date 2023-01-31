@@ -1,3 +1,17 @@
 body {
-    background-color: lavenderblush;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-block {
+    display: inline-flex;
+    width: 100%;
+}
+
+.projectsLink {
+    background-color: black;
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
 }

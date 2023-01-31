@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@font-face {
+    font-family: "Micky-Outline";
+    src: local("Micky-OutlineMedium"), local("Micky-OutlineMedium"),
+      url("fonts/Micky-OutlineMedium.ttf");
+    font-weight: Medium;
+  }
+@font-face {
+    font-family: "Micky-Outline";
+    src: local("Micky-OutlineThin"), local("Micky-OutlineThin"),
+        url("fonts/Micky-OutlineThin.ttf");
+    font-weight: Thin;
+}
+@font-face {
+    font-family: "Micky";
+    src: local("Micky-Regular"), local("Micky-Regular"),
+      url("fonts/Micky-Regular.ttf");
+    font-weight: Regular;
+}
+@font-face {
+    font-family: "Square-Sans";
+    src: local("Square-Sans"), local("Square-Sans"),
+        url("fonts/Square-Sans.ttf");
+    font-weight: Medium;
+}
+
+h1 {
+    font-family: "Micky", regular;
+}
+
+h2 {
+    font-family: "Micky-Outline", Medium;
+}
+
+h3 {
+    font-family: "Micky-Outline", Thin;
+}
+
+h4 {
+    font-family: "Square-Sans", Medium;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+}

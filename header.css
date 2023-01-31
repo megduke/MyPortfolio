@@ -1,0 +1,36 @@
+.navigation {
+    width: 100%;
+    padding: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navigationLogo {
+    height: 15vh;
+    width: 15vh;
+    margin-left: 2rem;
+}
+ul .navigation-links {
+    font-family: "Square-Sans";
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+ul .navigation-links a{
+   text-decoration: none;
+    color:  black;
+}
+
+ul .navigation-links a:active{
+    text-decoration: underline;
+    color:  black;
+}
+
+ ul .navigation-links a:hover{
+    color:  white;
+ }

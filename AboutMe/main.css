@@ -1,3 +1,58 @@
 body {
-    background-color: black;
+    background-image: none;
+    background-image: url('aboutmebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+#name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    font-size: 10rem;
+    margin-top: -4rem;
+    margin-left: 4rem;
+}
+
+h2 {
+    color: white;
+    font-size: 5rem;
+    margin-left: 2rem;
+}
+#self {
+    width: 70vh;
+    height: 70vh;
+}
+
+#info {
+    width: 40vw;
+    height: 100vh;
+    background-color: rgb(250,250,250);
+    padding: 1em;
+    padding-top: 10em;
+    padding-bottom: 4em;
+    margin-right: none;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 4rem;
+    padding: auto;
+    text-align: right;
+}
+h4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
 }
